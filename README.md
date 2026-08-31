@@ -1,5 +1,29 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 31-08-2026
+**Today's Work:**
+- Created feature/session_2 branch from develop.
+- Solved all 5 Category C class practice problems in strings.class_problems:
+  - Problem 1: Vowel & Consonant Counter — Vowel & Consonant Counter — charAt() traversal with lowercase normalisation and a vowel lookup string.
+  - Problem 2: CSV Student Record Parser — CSV Student Record Parser — split(",") with field-count validation and formatted record output.
+  - Problem 3: File Extension Validator — File Extension Validator — lastIndexOf('.') + substring() with equalsIgnoreCase() against an allowed-extension list.
+  - Problem 4: Masked Phone Number Formatter — Masked Phone Number Formatter — length and digit validation, then StringBuilder insert() to build the mask.
+  - Problem 5: Bank Transaction Reference Generator & Validator — Bank Transaction Reference Validator — trim() + partial uppercase normalisation, isLetter()/isDigit() checks with specific error reasons and StringBuilder formatting.
+- Completed all 5 Category C assignment problems in strings.assigment_problems:
+  - Problem 1: ATM PIN Length Validator (A1) — ATM PIN Length Validator — length() check against a PIN_LENGTH constant with one if/else.
+  - Problem 2: Word Reversal Encoder (A2) — Word Reversal Encoder — split(" "), per-word reverse loop into a StringBuilder and space-joined output.
+  - Problem 3: Product Inventory CSV Parser (A3) — Product Inventory CSV Parser — split(",") with exactly-3-fields validation and formatted output.
+  - Problem 4: Library ISBN Normalizer & Validator (A4) — Library ISBN Normalizer — trim() and publisher-code uppercase, multi-stage letter/digit validation with specific reasons and StringBuilder display.
+  - Problem 5: Stop-Word-Filtered Word Frequency Report (A5) — Stop-Word-Filtered Word Frequency — replace() cleanup, split("\\s+"), stop-word skip, LinkedHashMap counting and descending sort.
+
+**Next Session Plan:**
+- Continue with Week 3 problems in Session 3.
+
+**Issues Faced:**
+- Reference codes shorter than 3 characters would break substring() during normalization, so normalize guards the length before uppercasing the bank or publisher code.
+
+---
+
 ## Date: 30-08-2026
 **Today's Work:**
 - Created feature/session_1 branch from develop.
