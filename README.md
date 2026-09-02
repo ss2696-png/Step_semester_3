@@ -1,5 +1,29 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 02-09-2026
+**Today's Work:**
+- Created feature/session_3 branch from develop.
+- Solved all 5 Category C class practice problems in classes_objects.class_problems:
+  - Problem 1: Simple Student Record Class — Simple Student Record — Student class with name and marks set through direct field access.
+  - Problem 2: Two Objects, Two Separate States — Two Separate States — two HostelRoom objects proving instance fields are independent.
+  - Problem 3: Reading Java's Default Field Values — Default Field Values — unset LibraryCard fields print null, 0 and false.
+  - Problem 4: Basic Constructor for a Course — Basic Constructor — Course constructor using this.field = parameter.
+  - Problem 5: Counting Objects With a Static Field — Static Counter — shared static totalApplicants incremented in the constructor and read via the class name.
+- Completed all 5 Category C assignment problems in classes_objects.assigment_problems:
+  - Problem 1: Simple Book Record Class (A1) — Simple Book Record — Book class with title and price set via direct field access.
+  - Problem 2: Two Objects, Two Separate Occupancy Counts (A2) — Separate Occupancy Counts — two ExamHall objects with independent seatsFilled values.
+  - Problem 3: Reading Java's Default Field Values (A3) — Default Field Values — unset Employee fields print null, 0.0 and false.
+  - Problem 4: Basic Constructor for a Product (A4) — Basic Constructor — Product constructor assigning id and name with this.
+  - Problem 5: Counting Objects With a Static Field (A5) — Static Counter — shared static totalOrders counting four created orders.
+
+**Next Session Plan:**
+- Continue with Week 4 problems in Session 4.
+
+**Issues Faced:**
+- Kept the field-access problems constructor-free as the sheet asked, so default values could be shown before any assignment.
+
+---
+
 ## Date: 31-08-2026
 **Today's Work:**
 - Created feature/session_2 branch from develop.
