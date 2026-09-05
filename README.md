@@ -1,5 +1,29 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 05-09-2026
+**Today's Work:**
+- Created feature/session_4 branch from develop.
+- Solved all 5 Category C class practice problems in arrays.class_problems:
+  - Problem 1: Two Sum — Two Sum — nested-loop pairwise search returning the matching index pair.
+  - Problem 2: Best Time to Buy and Sell Stock — Buy and Sell Stock — single pass with a running minimum and best profit.
+  - Problem 3: Contains Duplicate — Contains Duplicate — pairwise comparison with early exit.
+  - Problem 4: Merge Two Sorted Arrays — Merge Sorted Arrays — two-pointer merge handling an empty input.
+  - Problem 5: Rotate Array — Rotate Array — modulo wraparound indexing into a new array.
+- Completed all 5 Category C assignment problems in arrays.assigment_problems:
+  - Problem 1: Product of Array Except Self (A1) — Product Except Self — prefix and suffix products in O(n) without division, zero-safe.
+  - Problem 2: Maximum Subarray (A2) — Maximum Subarray — Kadane's algorithm handling an all-negative array.
+  - Problem 3: 3Sum (A3) — 3Sum — sort plus two pointers with duplicate skipping in O(n²).
+  - Problem 4: Subarray Sum Equals K (A4) — Subarray Sum Equals K — prefix sums with a HashMap seeded with the empty prefix.
+  - Problem 5: Find Minimum in Rotated Sorted Array (A5) — Rotated Array Minimum — modified binary search that also handles no rotation.
+
+**Next Session Plan:**
+- Continue with Week 5 problems in Session 5.
+
+**Issues Faced:**
+- Subarray Sum needed the map seeded with prefix 0 -> 1 so subarrays starting at index 0 are counted; sliding window was avoided because of negative values.
+
+---
+
 ## Date: 02-09-2026
 **Today's Work:**
 - Created feature/session_3 branch from develop.
