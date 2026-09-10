@@ -1,5 +1,29 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 10-09-2026
+**Today's Work:**
+- Created feature/session_5 branch from develop.
+- Solved all 5 Category C class practice problems in arrays_methods.class_problems:
+  - Problem 1: Hackathon Score Curve Booster — Hackathon Score Curve Booster — in-place bonus through an array reference with no return value, printed via Arrays.toString.
+  - Problem 2: Duplicate Team Name Finder — Duplicate Team Name Finder — nested-loop pairwise check comparing each name only with later names, no Collections.
+  - Problem 3: Top-3 Podium Finder — Top-3 Podium Finder — single-pass first/second/third tracking that keeps tied top scores without any sort.
+  - Problem 4: Hackathon Seating Grid Optimizer — Hackathon Seating Grid Optimizer — private rowAverage helper reused per row of a jagged 2D grid to label Quiet/Buzzing zones.
+  - Problem 5: Placement Drive Shortlisting & Ranking Engine — Placement Drive Shortlisting & Ranking Engine — overloaded isEligible (CGPA >= 7.0, or CGPA >= 6.5 with coding >= 60), Comparable Candidate ranked by cgpa*10 + coding/2 via Arrays.sort.
+- Completed all 5 Category C assignment problems in arrays_methods.assigment_problems:
+  - Problem 1: Fantasy Team Score Multiplier (A1) — Fantasy Team Score Multiplier — captain 2x and vice-captain 1.5x applied in place with two direct index writes and index validation.
+  - Problem 2: Duplicate Player Pick Checker (A2) — Duplicate Player Pick Checker — nested-loop pairwise comparison with early exit on the first repeated pick.
+  - Problem 3: Top Performer Tracker (A3) — Top Performer Tracker — single-pass min/max tracking reporting the spread without sorting.
+  - Problem 4: Match Day Grid Analyzer (A4) — Match Day Grid Analyzer — rowAverage helper reused per match to label Power Surge vs Normal on a jagged grid.
+  - Problem 5: Fantasy League Auto-Draft Ranking Engine (A5) — Fantasy League Auto-Draft Ranking Engine — overloaded isDraftable (10+ matches, or 5+ matches and fit), Comparable Player sorted by batting average with Arrays.sort.
+
+**Next Session Plan:**
+- Continue with Week 6 problems in Session 6.
+
+**Issues Faced:**
+- The composite score and eligibility cutoffs were left to the student, so they were derived from the sample output (cgpa*10 + coding/2 gives 102.0, 100.5 and 85.0 exactly).
+
+---
+
 ## Date: 05-09-2026
 **Today's Work:**
 - Created feature/session_4 branch from develop.
