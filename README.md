@@ -1,5 +1,29 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 13-09-2026
+**Today's Work:**
+- Created feature/session_6 branch from develop.
+- Solved all 5 Category C class practice problems in classes_objects.class_problems:
+  - Problem 1: Student Placement Record Management — Student Placement Record Management — PlacementRecord objects in an array replacing out-of-sync parallel arrays.
+  - Problem 2: Hostel Mess Wallet Management — Hostel Mess Wallet Management — private balance with validated topUp/deduct, negative opening clamped to 0, no setter.
+  - Problem 3: Course Credit Management — Course Credit Management — theory-only constructor chains to the full constructor via this(...) with labCredits 0.
+  - Problem 4: Library ID Card Management — Library ID Card Management — shared reference vs separate object demonstrated with == on identical field values.
+  - Problem 5: Student and College Information Management — Student and College Information Management — static collegeName and studentCount incremented in the constructor, printed by static printCollegeInfo().
+- Completed all 5 Category C assignment problems in classes_objects.assigment_problems:
+  - Problem 1: Library Inventory Management (A1) — Library Inventory Management — BookInventory objects in an array replacing parallel arrays.
+  - Problem 2: Payroll Salary Management (A2) — Payroll Salary Management — private basicSalary and bonus, validated creditBonus and 0–100% deductTax, read-only getNetSalary.
+  - Problem 3: Employee Profile Creation (A3) — Employee Profile Creation — intern constructor chains with this(...) at salary 0 then flips isIntern to true.
+  - Problem 4: Exam Hall Ticket Reference Management (A4) — Exam Hall Ticket Reference Management — reference aliasing vs a new object with identical fields, checked with ==.
+  - Problem 5: Employee and Company Information Management (A5) — Employee and Company Information Management — static companyName and employeeCount with a static printCompanyInfo() called through the class name.
+
+**Next Session Plan:**
+- Continue with Week 7 problems in Session 7.
+
+**Issues Faced:**
+- Assignment Problems 3 and 5 both asked for a class named Employee in the same package, so Problem 5 was implemented as CompanyEmployee to avoid the name clash.
+
+---
+
 ## Date: 10-09-2026
 **Today's Work:**
 - Created feature/session_5 branch from develop.
