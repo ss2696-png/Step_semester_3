@@ -1,5 +1,29 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 20-09-2026
+**Today's Work:**
+- Created feature/session_7 branch from develop.
+- Solved all 5 Category C class practice problems in encapsulation.class_problems:
+  - Problem 1: The Piggy Bank — The Piggy Bank — private savings mutated only via deposit/withdraw, over-withdrawals rejected, final ID and no setter.
+  - Problem 2: The Quiz Scorecard — The Quiz Scorecard — private result array with a recorded counter, extra answers rejected, only getScore() exposed.
+  - Problem 3: The Nickname Tag — The Nickname Tag — final class with final fields, name split once in the constructor, nickname built on request.
+  - Problem 4: The Locker Code — The Locker Code — write-only private code with no getter, change guarded by the current code, final locker number.
+  - Problem 5: The Attendance Sheet — The Attendance Sheet — private name array with duplicate check, exposing only getPresentCount() and isPresent().
+- Completed all 5 Category C assignment problems in encapsulation.assigment_problems:
+  - Problem 1: The Health Bar (A1) — The Health Bar — private health clamped with Math.max/Math.min between 0 and a final max health.
+  - Problem 2: The Playlist (A2) — The Playlist — private song array returned through Arrays.copyOf so edits to the copy never leak back.
+  - Problem 3: The Password Checker (A3) — The Password Checker — final private password with no getter, strength rated by length (Weak/Medium/Strong).
+  - Problem 4: The Traffic Light (A4) — The Traffic Light — private index into a constant color cycle, next() as the only way to change it.
+  - Problem 5: The Shopping Cart (A5) — The Shopping Cart — private price array, total computed on request by looping, read-only item count.
+
+**Next Session Plan:**
+- Continue with Week 8 problems in Session 8.
+
+**Issues Faced:**
+- The assignment's Character class shadows java.lang.Character inside its package, so that package avoids using java.lang.Character directly.
+
+---
+
 ## Date: 13-09-2026
 **Today's Work:**
 - Created feature/session_6 branch from develop.
