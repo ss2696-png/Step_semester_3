@@ -1,5 +1,29 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 27-09-2026
+**Today's Work:**
+- Created feature/session_8 branch from develop.
+- Solved all 5 Category C class practice problems in polymorphism.class_problems:
+  - Problem 1: Payment System Fee Calculation — Payment System Fee Calculation — abstract Payment with overridden feeRate() in Card/Wallet/BankTransfer, uniform processing loop.
+  - Problem 2: Library Item Due Date Calculator — Library Item Due Date Calculator — borrowDays() overridden per item type, LocalDate.plusDays() and a quote-aware tokenizer for titles.
+  - Problem 3: Delivery Fee Calculator — Delivery Fee Calculator — template fee() with rate hooks per type, International overriding fee() to add customs.
+  - Problem 4: Examination Question Grader — Examination Question Grader — shared exact-match grading for MCQ/TF via an intermediate class, case-insensitive keyword partial credit for essays.
+  - Problem 5: Public Transport Fare Calculator — Public Transport Fare Calculator — overridden fare() with a bus cap and a validated metro peak-hour multiplier.
+- Completed all 5 Category C assignment problems in polymorphism.assigment_problems:
+  - Problem 1: The Canteen Billing Counter (A1) — Canteen Billing Counter — finalAmount() overridden for student/staff discounts and the guest service charge.
+  - Problem 2: The Campus Parking Charge Calculator (A2) — Campus Parking Charge Calculator — charge() overridden for bike hourly, car first-hour and truck minimum rules.
+  - Problem 3: The Hostel Electricity Bill (A3) — Hostel Electricity Bill — bill() per room type with occupants kept inside SharedRoom so every room is processed the same way.
+  - Problem 4: The Festival Bonus Calculator (A4) — Festival Bonus Calculator — shared name/salary in Employee, bonus() overridden for percentage and fixed intern bonus.
+  - Problem 5: The Streaming Plan Renewal Reminder (A5) — Streaming Plan Renewal Reminder — validityDays() overridden per plan, LocalDate.plusDays() handling leap year and year change.
+
+**Next Session Plan:**
+- Continue with Week 9 problems in Session 9.
+
+**Issues Faced:**
+- Practice P3's sample output (29.00/155.00) contradicts its own stated delivery rates; the solution follows the stated rules (24.00/145.00, total 184.00).
+
+---
+
 ## Date: 20-09-2026
 **Today's Work:**
 - Created feature/session_7 branch from develop.
