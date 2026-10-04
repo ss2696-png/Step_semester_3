@@ -1,5 +1,29 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 04-10-2026
+**Today's Work:**
+- Created feature/session_9 branch from develop.
+- Solved all 5 Category C class practice problems in abstraction_interface.class_problems:
+  - Problem 1: Garden Plot Area Report — Garden Plot Area Report — abstract GardenPlot with three shape subclasses overriding area(); report loop never checks the shape.
+  - Problem 2: Weekly Staff Pay — Weekly Staff Pay — abstract StaffMember cannot be instantiated; HourlyStaff splits regular and 1.5x overtime hours.
+  - Problem 3: Library Late Fine Counter — Library Late Fine Counter — abstract LibraryItem with per-type fine() including the DVD cap of 50.
+  - Problem 4: Electricity Connection Billing — Electricity Connection Billing — abstract ElectricConnection; HomeConnection slab rate, ShopConnection fixed charge, FactoryConnection minimum bill.
+  - Problem 5: Travel Booking with a Common Fee — Travel Booking — BOOKING_FEE defined once in abstract TravelBooking; final total() = fare() + fee, subclasses only implement fare().
+- Completed all 5 Category C assignment problems in abstraction_interface.assigment_problems:
+  - Problem 1: Movie Ticket Counter (A1) — Movie Ticket Counter — abstract MovieTicket with CONVENIENCE_FEE written once and final amount(); seat subclasses only provide price.
+  - Problem 2: Parcel Shipping Desk (A2) — Parcel Shipping Desk — abstract Parcel for charge, Insurable interface with default 2% insurance; FragileParcel extends StandardParcel and adds handling.
+  - Problem 3: College Fee Counter (A3) — College Fee Counter — abstract CollegeStudent; BusUser marker interface carries TRANSPORT_FEE, totalFee() adds it via instanceof.
+  - Problem 4: City Cab Fare Meter (A4) — City Cab Fare Meter — MINIMUM_FARE in abstract Cab, NightService interface with default nightFare(); mini night trips rejected via instanceof.
+  - Problem 5: Home Appliance Energy Report (A5) — Home Appliance Energy Report — abstract Appliance computes units, SaverMode default saverUnits() for AC and washer; unsupported saver reported.
+
+**Next Session Plan:**
+- Continue with Week 10 problems in Session 10.
+
+**Issues Faced:**
+- Shared rules (booking fee, convenience fee, minimum fare, transport fee) were written once in the abstract base or interface, and optional abilities like insurance, night service and saver mode were modelled as interfaces checked with instanceof instead of type-name if-else chains.
+
+---
+
 ## Date: 27-09-2026
 **Today's Work:**
 - Created feature/session_8 branch from develop.
