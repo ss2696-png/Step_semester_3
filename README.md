@@ -1,5 +1,34 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 11-10-2026
+**Today's Work:**
+- Created feature/session_10 branch from develop.
+- Solved all 10 Category C class practice problems in data_structures.class_problems:
+  - Problem 1: Vowel and Consonant Counter — Vowel and Consonant Counter — case-insensitive character scan against a vowel set.
+  - Problem 2: Word Reverser and Palindrome Checker — Word Reverser — StringBuilder.reverse() and equality check for palindromes.
+  - Problem 3: Even and Odd Numbers in a List — Even/Odd Counter — single pass with % 2, odd count derived from length.
+  - Problem 4: In-Place Array Reversal — In-Place Array Reversal — two-pointer swap, O(1) extra space.
+  - Problem 5: Digit Sum and Number Reversal — Digit Sum and Reversal — % 10 / / 10 digit extraction loops.
+  - Problem 6: Prime Number Checker — Prime Checker — trial division up to the square root.
+  - Problem 7: Factorial Calculation — Factorial — iterative product with 0! = 1, input capped at 20 for long.
+  - Problem 8: Student Grade Assignment — Grade Assignment — if-else ladder from highest boundary.
+  - Problem 9: Leap Year Detector — Leap Year Detector — (y%4==0 && y%100!=0) || y%400==0.
+  - Problem 10: Student Result Card Generator — Result Card Generator — Student class with defensive copy of marks, average() and grade().
+- Completed all 5 Category C assignment problems in data_structures.assigment_problems:
+  - Problem 4: Exam Score Band Counter (A1) — Problem 4 (A1): Exam Score Band Counter — lower/upper bound binary searches, O(log n).
+  - Problem 6: Class Attendance Tracker (A2) — Problem 6 (A2): Class Attendance Tracker — running streak reset on 0, single pass O(n).
+  - Problem 7: Second-Best Score (A3) — Problem 7 (A3): Second-Best Score — two trackers in one pass, O(n) vs O(n log n) sort.
+  - Problem 8: Duty Roster Rotation (A4) — Problem 8 (A4): Duty Roster Rotation — k % n then (i + k) % n placement, O(n).
+  - Problem 10: Busiest Bus Row (A5) — Problem 10 (A5): Busiest Bus Row — nested row sums, O(r·c), earliest row kept on ties.
+
+**Next Session Plan:**
+- Continue with Week 11 problems in Session 11.
+
+**Issues Faced:**
+- The score band counter needed two boundary binary searches (first >= low, first > high) so duplicate scores at the band edges are counted correctly, and the roster rotation reduces k with k % n because k can be up to 10^9.
+
+---
+
 ## Date: 04-10-2026
 **Today's Work:**
 - Created feature/session_9 branch from develop.
