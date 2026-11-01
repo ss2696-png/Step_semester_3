@@ -1,5 +1,34 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 01-11-2026
+**Today's Work:**
+- Created feature/session_11 branch from develop.
+- Solved all 10 Category C class practice problems in data_structures.class_problems:
+  - Problem 1: Library Catalog Lookup — Library Catalog Lookup — binary search on the ISBN-sorted catalog, O(log n) time and O(1) space for a read-heavy workload.
+  - Problem 2: Warehouse Bin Grid Scan — Warehouse Bin Grid Scan — one O(m*n) pass over the 2D grid tracking the running total and first maximum coordinate.
+  - Problem 3: Transaction Duplicate Check — Transaction Duplicate Check — HashSet for O(n) detection, compared with an O(n log n) sort-based alternative that uses less memory.
+  - Problem 4: Employee ID Lookup in an Unsorted Directory — Employee ID Lookup — one-time HashMap build so each getDepartment query is O(1) on average with O(n) space.
+  - Problem 5: Pair With Target Sum (Unsorted) — Pair With Target Sum — brute force O(n^2), HashSet complement lookup O(n), and sort + two pointers O(n log n) compared.
+  - Problem 6: Best Single Trade Profit — Best Single Trade Profit — one pass tracking the lowest price so far instead of checking every pair of days.
+  - Problem 7: Insert Position in a Sorted List — Insert Position — binary search where the final low pointer is the insertion index, O(log n).
+  - Problem 8: Spiral Order Traversal — Spiral Order Traversal — top/bottom/left/right boundaries shrinking inward, works for non-square grids.
+  - Problem 9: Pair Sum in a Sorted Array — Pair Sum in a Sorted Array — two pointers from both ends, O(n) time and O(1) space versus O(n^2) brute force.
+  - Problem 10: Remove Duplicates From a Sorted Array In-Place — Remove Duplicates In-Place — read/write pointers compacting unique values with O(1) extra space.
+- Completed all 5 Category C assignment problems in data_structures.assigment_problems:
+  - Problem 1: The Height Line-Up (A1) — The Height Line-Up — bubble sort with a swapped flag for early exit, printing each pass.
+  - Problem 2: The Prize Table (A2) — The Prize Table — descending selection sort that skips the swap when the max is already in place and counts real swaps.
+  - Problem 3: The Library Book Shelf (A3) — The Library Book Shelf — insertion sort holding the new book in a variable and shifting larger ones right.
+  - Problem 4: Is the Queue in Order? (A4) — Is the Queue in Order? — one pass from index 1 comparing neighbours, equal tokens allowed, empty/single queue returns -1.
+  - Problem 5: The Dice Throw Tally (A5) — The Dice Throw Tally — counting sort with a size-7 count array, no comparisons between throws.
+
+**Next Session Plan:**
+- Continue with Week 12 problems in Session 12.
+
+**Issues Faced:**
+- The practice sheet has 10 coding problems (P1–P10) instead of 5, and the assignment PDFs each repeat earlier pages, so problems were de-duplicated by number; the bubble sort had to still print the final no-swap pass before stopping.
+
+---
+
 ## Date: 11-10-2026
 **Today's Work:**
 - Created feature/session_10 branch from develop.
